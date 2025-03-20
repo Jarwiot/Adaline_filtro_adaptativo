@@ -5,7 +5,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Clase ADALINE
 class Adaline:
-    def __init__(self, lr=0.01, epochs=10):  # Aumentar las épocas
+    def __init__(self, lr=0.01, epochs=10):  #
         self.lr = lr
         self.epochs = epochs
         self.weights = np.random.randn(2)  # Ahora tenemos dos pesos (W1 y W2)
